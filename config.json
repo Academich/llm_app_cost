@@ -1,0 +1,12 @@
+{
+    "API_token_cost": {
+        "GPT-3.5 Turbo": {
+            "input_token_cost_per_million": 0.5,
+            "output_token_cost_per_million": 1.5
+        },
+        "GPT-4o": {
+            "input_token_cost_per_million": 2.5,
+            "output_token_cost_per_million": 10
+        }
+    }
+}
