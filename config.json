@@ -1,12 +1,24 @@
 {
-    "API_token_cost": {
-        "GPT-3.5 Turbo": {
-            "input_token_cost_per_million": 0.5,
-            "output_token_cost_per_million": 1.5
-        },
+    "models": {
         "GPT-4o": {
             "input_token_cost_per_million": 2.5,
-            "output_token_cost_per_million": 10
+            "output_token_cost_per_million": 10,
+            "tokenizer": "o200k_base"
+        },
+        "GPT-4o-mini": {
+            "input_token_cost_per_million": 0.15,
+            "output_token_cost_per_million": 0.6,
+            "tokenizer": "o200k_base"
+        },
+        "GPT-3.5-turbo": {
+            "input_token_cost_per_million": 0.5,
+            "output_token_cost_per_million": 1.5,
+            "tokenizer": "cl100k_base"
+        },
+        "GPT-3.5-turbo-instruct": {
+            "input_token_cost_per_million": 1.5,
+            "output_token_cost_per_million": 2.0,
+            "tokenizer": "cl100k_base"
         }
     }
 }
