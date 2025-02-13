@@ -25,13 +25,13 @@ def main():
             "Average number of tokens per request",
             min_value=0,
             max_value=10000,
-            value=100,
+            value=2000,
         )
         tokens_per_response_average = st.slider(
             "Average number of tokens per response",
             min_value=0,
-            max_value=10000,
-            value=100,
+            max_value=200,
+            value=90,
         )
 
         # Suppose that a user makes a request for every shot
