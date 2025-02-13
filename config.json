@@ -19,6 +19,11 @@
             "input_token_cost_per_million": 1.5,
             "output_token_cost_per_million": 2.0,
             "tokenizer": "cl100k_base"
+        },
+        "DeepSeek-chat": {
+            "input_token_cost_per_million": 0.27,
+            "output_token_cost_per_million": 1.1,
+            "tokenizer": "cl100k_base"
         }
     }
 }
