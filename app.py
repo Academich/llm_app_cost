@@ -64,7 +64,9 @@ def main():
         st.success(f"API cost per month: ${app_cost_external_api:.1f}")
         st.subheader("Monthly cost when using a cloud GPU")
         gpu_number = st.slider("Number of GPUs", min_value=0, max_value=10, value=1)
-        gpu_cost_per_hour = st.slider("Cost per hour", min_value=0.0, max_value=5.0, value=0.99)
+        gpu_cost_per_hour = st.slider(
+            "Cost per hour", min_value=0.0, max_value=5.0, value=0.99
+        )
         gpu_cost_per_month = gpu_number * gpu_cost_per_hour * HOURS_IN_MONTH
         st.success(f"Cloud GPU cost per month: ${gpu_cost_per_month:.1f}")
 
