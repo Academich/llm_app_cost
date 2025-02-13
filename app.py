@@ -37,13 +37,6 @@ def main():
             value=90,
         )
 
-        # Suppose that a user makes a request for every shot
-        # There are 18 holes in a match
-        # The match lasts 4 hours
-        # The total par is 72
-        # Every hole requires 2 green strokes
-        # The user makes 72 - (2 * 18) = 36 non-green strokes per match
-        # The user makes 36 / 4 = 9 questions per hour
         requests_per_hour_per_user_average = st.slider(
             "Average number of requests per hour per user",
             min_value=0,
