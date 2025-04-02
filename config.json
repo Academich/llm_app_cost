@@ -25,5 +25,33 @@
             "output_token_cost_per_million": 1.1,
             "tokenizer": "cl100k_base"
         }
+    },
+    "GPU": 
+    {
+        "V100": {
+            "TFLOPS_half_precision": 119.2,
+            "memory_gb": 32,
+            "average_dollars_per_hour_on_aws": 4.45
+        },
+        "A100": {
+            "TFLOPS_half_precision": 312.0,
+            "memory_gb": 40,
+            "average_dollars_per_hour_on_aws": 5.04
+        },
+        "L40": {
+            "TFLOPS_half_precision": 362.1,
+            "memory_gb": 48,
+            "average_dollars_per_hour_on_aws": 2.10
+        },
+        "T4": {
+            "TFLOPS_half_precision": 64.8,
+            "memory_gb": 16,
+            "average_dollars_per_hour_on_aws": 0.65
+        },
+        "H100": {
+            "TFLOPS_half_precision": 756.4,
+            "memory_gb": 80,
+            "average_dollars_per_hour_on_aws": 14.56
+        }
     }
 }

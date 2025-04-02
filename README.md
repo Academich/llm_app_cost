@@ -2,9 +2,14 @@
 An interactive dashboard that helps to calculate the costs of scaling an LLM app
 
 ## Usage
-
+Install `uv` and create a virtual environment
 ```bash
-pip install -r requirements.txt
+uv sync
+source .venv/bin/activate
+```
+
+Run the app
+```bash
 streamlit run app.py
 ```
 
