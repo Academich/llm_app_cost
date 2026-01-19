@@ -1,5 +1,20 @@
 {
     "models": {
+        "GPT-4.1-mini": {
+            "input_token_cost_per_million": 0.4,
+            "output_token_cost_per_million": 1.6,
+            "tokenizer": "o200k_base"
+        },
+        "GPT-4.1": {
+            "input_token_cost_per_million": 2.0,
+            "output_token_cost_per_million": 8,
+            "tokenizer": "o200k_base"
+        },
+        "GPT-4.1-nano": {
+            "input_token_cost_per_million": 0.10,
+            "output_token_cost_per_million": 0.4,
+            "tokenizer": "o200k_base"
+        },
         "GPT-4o": {
             "input_token_cost_per_million": 2.5,
             "output_token_cost_per_million": 10,
